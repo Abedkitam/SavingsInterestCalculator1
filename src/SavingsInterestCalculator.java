@@ -28,6 +28,7 @@ public class SavingsInterestCalculator {
         System.out.println("Years: " + years);
         System.out.println("Exact interest: " + interest);
         System.out.println("Rounded interest (for management): " + roundedInterest);
+        System.out.println("Interest rounded to 2 decimals: " + twoDecimals);
         System.out.println("Interest after (int) cast: " + cutInterest);
 
         System.out.println();
