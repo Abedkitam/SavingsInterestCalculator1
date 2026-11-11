@@ -21,7 +21,7 @@ public class SavingsInterestCalculator {
         int cutInterest = (int) interest;
 
         System.out.println();
-        System.out.println("===== SUMMARY REPORT =====");
+        System.out.println("===== MICROFINANCE SAVINGS REPORT =====");
         System.out.print("Enter the customer's full name: ");
         System.out.println("Deposit: " + deposit);
         System.out.println("Years: " + years);
