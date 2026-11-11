@@ -36,13 +36,16 @@ public class SavingsInterestCalculator {
         System.out.println("Automatic (safe): int " + deposit + " becomes double " + depositAsDouble);
         long depositAsLong = deposit;
         System.out.println("Automatic (safe): int " + deposit + " becomes long " + depositAsLong);
-        
+
         int a = 7;
         int b = 2;
         System.out.println("Integer division 7 / 2 = " + (a / b));
         System.out.println("With (double) cast 7 / 2 = " + ((double) a / b));
 
         System.out.println("Manual cast needed: double " + interest + " to int " + cutInterest);
+        int rateAsInt = (int) rate;
+        System.out.println("Manual cast: rate " + rate + " becomes int " + rateAsInt);
+        
         System.out.println("The decimal part was lost, so accuracy is affected.");
         input.close();
     }
