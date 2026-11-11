@@ -34,7 +34,9 @@ public class SavingsInterestCalculator {
 
         double depositAsDouble = deposit;
         System.out.println("Automatic (safe): int " + deposit + " becomes double " + depositAsDouble);
-
+        long depositAsLong = deposit;
+        System.out.println("Automatic (safe): int " + deposit + " becomes long " + depositAsLong);
+        
         int a = 7;
         int b = 2;
         System.out.println("Integer division 7 / 2 = " + (a / b));
