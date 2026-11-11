@@ -19,6 +19,7 @@ public class SavingsInterestCalculator {
 
         long roundedInterest = Math.round(interest);
         int cutInterest = (int) interest;
+        double twoDecimals = Math.round(interest * 100) / 100.0;
 
         System.out.println();
         System.out.println("===== SUMMARY REPORT =====");
