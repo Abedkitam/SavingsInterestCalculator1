@@ -14,7 +14,7 @@ public class SavingsInterestCalculator {
         System.out.print("Enter number of years: ");
         int years = input.nextInt();
 
-        double rate = 8.0;
+        double rate = 8.5;
         double interest = deposit * rate * years / 100;
 
         long roundedInterest = Math.round(interest);
