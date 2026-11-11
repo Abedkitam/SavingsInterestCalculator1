@@ -22,7 +22,7 @@ public class SavingsInterestCalculator {
 
         System.out.println();
         System.out.println("===== SUMMARY REPORT =====");
-        System.out.println("Customer: " + name);
+        System.out.print("Enter the customer's full name: ");
         System.out.println("Deposit: " + deposit);
         System.out.println("Years: " + years);
         System.out.println("Exact interest: " + interest);
