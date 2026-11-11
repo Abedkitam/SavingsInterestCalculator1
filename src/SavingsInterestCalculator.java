@@ -28,7 +28,8 @@ public class SavingsInterestCalculator {
         System.out.println("Exact interest: " + interest);
         System.out.println("Rounded interest (for management): " + roundedInterest);
         System.out.println("Interest after (int) cast: " + cutInterest);
-
+        double totalAmount = deposit + interest;
+        
         System.out.println();
         System.out.println("===== TYPE CONVERSION =====");
 
